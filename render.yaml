@@ -53,7 +53,7 @@ services:
       - key: CORS_ORIGINS
         value: 'https://velora-wallet-platform.onrender.com'
       - key: PAYMENT_PROVIDER
-        value: 'simulated'
+        value: 'razorpay'
 
 databases:
   - name: velora-postgres
